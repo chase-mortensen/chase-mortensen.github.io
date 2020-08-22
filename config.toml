@@ -4,7 +4,7 @@ theme = "codex"
 # Override these settings with your own
 title = "ckm"
 languageCode = "en-us"
-baseURL = "https://chase.mortensen.dev"
+baseURL = "/"
 copyright = "© {year}"
 publishDir = "docs"
 

@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chase.mortensen.dev/</loc>
+    <loc>/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/markdown/</loc>
+    <loc>/tags/markdown/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/blog/markdown-syntax-guide/</loc>
+    <loc>/blog/markdown-syntax-guide/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/math/</loc>
+    <loc>/tags/math/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/blog/math-typesetting/</loc>
+    <loc>/blog/math-typesetting/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/blog/rich-text/</loc>
+    <loc>/blog/rich-text/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/shortcodes/</loc>
+    <loc>/tags/shortcodes/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/themes/</loc>
+    <loc>/tags/themes/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2020-06-04T09:19:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/blog/example-post/</loc>
+    <loc>/blog/example-post/</loc>
     <lastmod>2020-06-04T09:19:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chase.mortensen.dev/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>
