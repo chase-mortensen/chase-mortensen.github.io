@@ -4,7 +4,7 @@ theme = "codex"
 # Override these settings with your own
 title = "Chase"
 languageCode = "en-us"
-baseURL = "https://chase-mortensen.github.io/"
+baseURL = "https://chase-mortensen.github.io/docs/"
 copyright = "© {year}"
 publishDir = "docs"
 
