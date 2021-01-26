@@ -1,5 +1,5 @@
 # DO NOT REMOVE THIS
-theme = "codex" 
+theme = "hugo-theme-codex" 
 
 # Override these settings with your own
 title = "ckm"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crypto on ckm</title>
+    <link>https://chase-mortensen.github.io/tags/crypto/</link>
+    <description>Recent content in crypto on ckm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 25 Jan 2021 15:05:29 -0300</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptocurrency Heatmap</title>
+      <link>https://chase-mortensen.github.io/crypto-heatmap/</link>
+      <pubDate>Mon, 25 Jan 2021 15:05:29 -0300</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/crypto-heatmap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
