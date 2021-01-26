@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 25 Jan 2021 15:05:29 -0300</lastBuildDate><atom:link href="https://chase-mortensen.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cryptocurrency Heatmap</title>
-      <link>https://chase-mortensen.github.io/crypto-heatmap/</link>
-      <pubDate>Mon, 25 Jan 2021 15:05:29 -0300</pubDate>
-      
-      <guid>https://chase-mortensen.github.io/crypto-heatmap/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://chase-mortensen.github.io/blog/markdown-syntax-guide/</link>
@@ -33,6 +24,15 @@
       
       <guid>https://chase-mortensen.github.io/blog/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency Heatmap</title>
+      <link>https://chase-mortensen.github.io/heatmap/crypto-heatmap/</link>
+      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/heatmap/crypto-heatmap/</guid>
+      <description></description>
     </item>
     
     <item>
