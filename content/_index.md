@@ -1,5 +1,5 @@
 ---
 heading: "Hi, I'm Chase"
-subheading: "designer / developer / DIY-er"
+subheading: "Designer / Developer / DIY-er"
 handle: "chasekmortensen"
 ---
