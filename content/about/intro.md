@@ -5,15 +5,20 @@ slug: "introduction"
 description: "Hi, here's a little about me."
 keywords: ["resume"]
 draft: false
-tags: ["hugo"]
+tags: []
 math: false
 toc: false
 ---
 
 ## Hi, I'm Chase.
 
-I am a musician, artist, skier, mountain biker, pickleballer, and, since January, vegan. I am a recent computer science graduate from USU and I value simple, usable design.
+I am a musician, artist, uncle, skier, mountain biker, pickleballer, and, since January, vegan. I am a recent computer science graduate from USU and I value simple, usable design.
+
+{{< figure src="/assets/graduation.JPG" >}}
 
 Here is a link to my [current resume](https://docs.google.com/document/d/1n6EZnqZ7fKQOiMqzuc861H2rILZMZI1M50QWzNnkzJc/edit?usp=sharing).
+
+This site is a work in progress and will contain more information on my projects soon. Stay tuned!
+
 
 
