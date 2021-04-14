@@ -6,8 +6,8 @@ description: "Hi, here's a little about me."
 keywords: ["resume"]
 draft: false
 tags: ["hugo"]
-math: true
-toc: true
+math: false
+toc: false
 ---
 
 ## Hi, I'm Chase.
@@ -16,4 +16,4 @@ I am a musician, artist, skier, mountain biker, pickleballer, and, since January
 
 Here is a link to my [current resume](https://docs.google.com/document/d/1n6EZnqZ7fKQOiMqzuc861H2rILZMZI1M50QWzNnkzJc/edit?usp=sharing).
 
-{{< instagram CESTVrpB0Iu >}}
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on ckm</title>
+    <link>https://chase-mortensen.github.io/about/</link>
+    <description>Recent content in Abouts on ckm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Tue, 13 Apr 2021 09:19:29 -0400</lastBuildDate>
+    
+	<atom:link href="https://chase-mortensen.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://chase-mortensen.github.io/about/introduction/</link>
+      <pubDate>Tue, 13 Apr 2021 09:19:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/about/introduction/</guid>
+      <description>Hi, I&amp;rsquo;m Chase. I am a musician, artist, skier, mountain biker, pickleballer, and, since January, vegan. I am a recent computer science graduate from USU and I value simple, usable design.
+Here is a link to my current resume .</description>
+    </item>
+    
+  </channel>
+</rss>
