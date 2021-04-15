@@ -67,9 +67,9 @@ googleAnalytics = "UA-121096353-3"
   title = "About"
   url = "/about/introduction"
 
-# [[menu.main]]
-#   identifier = "projects"
-#   name = "projects"
-#   title = "Projects"
-#   url = "/projects"
+[[menu.main]]
+  identifier = "projects"
+  name = "projects"
+  title = "Projects"
+  url = "/projects"
 
