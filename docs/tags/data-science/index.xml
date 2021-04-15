@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ckm</title>
-    <link>https://chase-mortensen.github.io/</link>
-    <description>Recent content on ckm</description>
+    <title>data-science on ckm</title>
+    <link>https://chase-mortensen.github.io/tags/data-science/</link>
+    <description>Recent content in data-science on ckm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
     <lastBuildDate>Tue, 13 Apr 2021 12:23:29 -0400</lastBuildDate>
     
-	<atom:link href="https://chase-mortensen.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chase-mortensen.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
       <description>Intro FaceOverlay (also known as SmileyCluster ) is an educational tool for machine learning under development in Dr. Zhen Bai&amp;rsquo;s lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience.
 
   UR&amp;rsquo;s Rush Rhees Library ↑   Chernoff Faces Chernoff Faces are a tool for visualizing multivariate data.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://chase-mortensen.github.io/about/introduction/</link>
-      <pubDate>Tue, 13 Apr 2021 09:19:29 -0400</pubDate>
-      
-      <guid>https://chase-mortensen.github.io/about/introduction/</guid>
-      <description>Hi, I&amp;rsquo;m Chase. I am a musician, artist, uncle, skier, mountain biker, pickleballer, and, since January, vegan. I am a recent computer science graduate from USU and I value simple, usable design.   Here is a link to my current resume .
-This site is a work in progress and will contain more information about me and my projects soon. Stay tuned!</description>
     </item>
     
   </channel>

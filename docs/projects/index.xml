@@ -7,18 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 13 Apr 2021 12:23:29 -0400</lastBuildDate>
     
 	<atom:link href="https://chase-mortensen.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Welcome To Codex</title>
-      <link>https://chase-mortensen.github.io/projects/example-post/</link>
-      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      <title>FaceOverlay</title>
+      <link>https://chase-mortensen.github.io/projects/faceoverlay/</link>
+      <pubDate>Tue, 13 Apr 2021 12:23:29 -0400</pubDate>
       
-      <guid>https://chase-mortensen.github.io/projects/example-post/</guid>
-      <description>The standard Lorem Ipsum passage &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>https://chase-mortensen.github.io/projects/faceoverlay/</guid>
+      <description>Intro FaceOverlay (also known as SmileyCluster ) is an educational tool for machine learning under development in Dr. Zhen Bai&amp;rsquo;s lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience.
+
+  UR&amp;rsquo;s Rush Rhees Library ↑   Chernoff Faces Chernoff Faces are a tool for visualizing multivariate data.</description>
     </item>
     
   </channel>
