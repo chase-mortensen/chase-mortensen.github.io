@@ -1,6 +1,6 @@
 ---
 title: "FaceOverlay"
-date: 2021-04-13T12:23:29-04:00
+date: 2021-04-14T20:23:29-04:00
 slug: "faceoverlay"
 description: "FaceOverlay is an educational tool for machine learning."
 keywords: ["faceoverlay", "machine learning", "ml", "data science"]
@@ -14,8 +14,8 @@ toc: true
 
 FaceOverlay (also known as [SmileyCluster](https://zhenbai.io/wp-content/uploads/2020/11/SmileyCluster_IDC20.pdf)) is an educational tool for machine learning under development in Dr. Zhen Bai's lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience. 
 
-<br><br>
-{{< figure src="/assets/ur-library.jpg" caption="#### UR's Rush Rhees Library &uarr;" >}}
+<br>
+{{< figure src="/assets/faceoverlay/ur-library.jpg" caption="#### UR's Rush Rhees Library &uarr;" >}}
 
 ### Chernoff Faces
 
@@ -23,13 +23,13 @@ FaceOverlay (also known as [SmileyCluster](https://zhenbai.io/wp-content/uploads
 
 Some drawbacks to Chernoff faces are 1) that the features aren't easily measurable and 2) that some features are more salient than others.
 
-<br><br>
-{{< figure src="/assets/chernoff-faces.png" caption="#### Traditional Chernoff Faces &uarr;" >}}
+<br>
+{{< figure src="/assets/faceoverlay/chernoff-faces.png" caption="#### Traditional Chernoff Faces &uarr;" >}}
 
 However, Chernoff faces can be a useful tool to become familiar with multivariate data since we are able to discern small differences between faces that would be more difficult to see with solely numerical data. It is also flexible in that a range of variables can be represented - facial features can be added or subtracted based on the number of variables in the data.
 
-<br><br>
-{{< figure src="/assets/faceoverlay-faces-short.png" caption="#### FaceOverlay Variation &uarr;" >}}
+<br>
+{{< figure src="/assets/faceoverlay/faceoverlay-faces-short.png" caption="#### FaceOverlay Variation &uarr;" >}}
 
 ## The Project
 
@@ -39,8 +39,8 @@ When I joined the project, Dr. Bai's lab had already come up with the FaceOverla
 
 We set out to design a simple web interface using this FaceOverlay concept to explain the [k-means clustering algorithm](https://en.wikipedia.org/wiki/K-means_clustering#Standard_algorithm_(naive_k-means)). The idea was that the tool would be used in a K-12 setting to assist an instructor in teaching k-means clustering.
 
-<br><br>
-{{< figure src="/assets/k-means.gif" caption="#### K-means Clustering &uarr;" >}}
+<br>
+{{< figure src="/assets/faceoverlay/k-means.gif" caption="#### K-means Clustering &uarr;" >}}
 
 ### Classroom Study
 

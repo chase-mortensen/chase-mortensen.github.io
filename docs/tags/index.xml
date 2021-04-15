@@ -7,26 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 13 Apr 2021 12:23:29 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 15 Apr 2021 02:23:29 -0400</lastBuildDate>
     
 	<atom:link href="https://chase-mortensen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>data-science</title>
-      <link>https://chase-mortensen.github.io/tags/data-science/</link>
-      <pubDate>Tue, 13 Apr 2021 12:23:29 -0400</pubDate>
+      <title>machine-learning</title>
+      <link>https://chase-mortensen.github.io/tags/machine-learning/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
       
-      <guid>https://chase-mortensen.github.io/tags/data-science/</guid>
+      <guid>https://chase-mortensen.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>machine-learning</title>
-      <link>https://chase-mortensen.github.io/tags/machine-learning/</link>
-      <pubDate>Tue, 13 Apr 2021 12:23:29 -0400</pubDate>
+      <title>mockflow</title>
+      <link>https://chase-mortensen.github.io/tags/mockflow/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
       
-      <guid>https://chase-mortensen.github.io/tags/machine-learning/</guid>
+      <guid>https://chase-mortensen.github.io/tags/mockflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tailwind</title>
+      <link>https://chase-mortensen.github.io/tags/tailwind/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/tailwind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vue.js</title>
+      <link>https://chase-mortensen.github.io/tags/vue.js/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/vue.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vuetify</title>
+      <link>https://chase-mortensen.github.io/tags/vuetify/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/vuetify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-science</title>
+      <link>https://chase-mortensen.github.io/tags/data-science/</link>
+      <pubDate>Wed, 14 Apr 2021 20:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     
