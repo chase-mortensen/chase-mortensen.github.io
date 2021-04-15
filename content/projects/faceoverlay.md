@@ -48,7 +48,7 @@ We conducted an exploratory classroom study where we had an instructor walk thro
 
 ### Link to Project
 
-This is a link to the [first iteration](https://augnitionlab.github.io/FaceOverlay_Publish/HTML/DataNarrative.html) of the project that I worked on with other members of Dr. Bai's lab. Our [paper](https://zhenbai.io/wp-content/uploads/2020/11/SmileyCluster_IDC20.pdf) was published in Interaction Design and Children (IDC) 2020.
+This is a link to the [first iteration](https://augnitionlab.github.io/FaceOverlay_Publish/HTML/DataNarrative.html) of the project that I worked on with other members of Dr. Bai's lab. Our [paper](https://zhenbai.io/wp-content/uploads/2020/11/SmileyCluster_IDC20.pdf) was published in Interaction Design and Children (IDC) 2020. The findings in the paper are promising - participants improved on all six questions in our pre/post evaluation. If you are interested, I would suggest checking out the paper for more specific findings and details.
 
 What do you think? Let me know at chase@chase-mortensen.dev.
 
