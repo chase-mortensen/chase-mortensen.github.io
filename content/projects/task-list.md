@@ -3,27 +3,28 @@ title: "Task List"
 date: 2021-04-15T02:23:29-04:00
 slug: "task-list"
 description: "This is a simple to-do app that I want to expand into a smart task scheduler."
-keywords: ["to-do", "task", "machine learning", "ml", "data science", "UX/UI", "mockflow", "tailwind", "vue.js", "vuetify"]
+keywords: ["to-do", "task", "machine learning", "ml", "data science", "UX/UI", "mockflow", "tailwind", "vue.js", "vuetify", "firebase"]
 draft: false
-tags: ["machine-learning", "UX/UI", "mockflow", "tailwind", "vue.js", "vuetify"]
+tags: ["ML", "UX/UI", "mockflow", "tailwind", "vue.js", "firebase", "JS"]
 math: false
 toc: true
 ---
 
 ## Current Project
 
-This project (code [here](https://github.com/chase-mortensen/to-do-app)) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn't fully functional, but you can see a demo [here](https://to-do-app-e6306.firebaseapp.com/). This project was built in Vue.js and is currently styled using vuetify.
+This project (code [here](https://github.com/chase-mortensen/to-do-app)) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn't fully functional, but you can see a demo [here](https://to-do-app-e6306.firebaseapp.com/). This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.
 
 <br>
 {{< figure src="/assets/task-list/to-do-current.png" caption="#### Current Version &uarr;" >}}
 
 ## What Next?
 
-As I've thought about this fairly standard project, I've realized it doesn't have many interesting advantages over a standard paper to-do list. Sure, it's clean, but it's essentially the same as a physical version.
+As I've thought about this fairly standard project, I've realized it doesn't have many interesting advantages over a standard paper to-do list. Sure, it's clean, but it's essentially the same as a physical version. You can add, edit, delete, and mark tasks as complete.
 
 Possible improvements that would give this project a major advantage over a paper to-do list are:
 * Incorporate a schedule
 * Use ML to estimate task duration
+* Suggest tasks for open slots in schedule
 * Incorporate other useful fields, such as deadlines and scheduled events
 * Categorize tasks
 * Use ML to auto-fill fields
@@ -62,21 +63,21 @@ Here is the alternative home page showing the month view. Ideally, the user will
 
 ### Task Details
 
-This is state 3 and is shown when a task is selected.
+This is state 3 and is shown when a task is selected. From this state, the user can edit or delete a task or deselect the task and return to state 1.
 
 <br>
 {{< figure src="/assets/task-list/wf-3-month.png" >}}
 
 ### Add/Edit Task
 
-This is state 4. Edit is the same as this 'Add Task' page but populates fields with data and changes the title from 'Add' to 'Edit.'
+This page is state 4. The edit version is the same as this 'Add Task' page but populates fields with data and changes the title from 'Add' to 'Edit.' From this page, the user can fill out the form and cancel or save the task.
 
 <br>
 {{< figure src="/assets/task-list/wf-4-month.png" >}}
 
 ### Home Page with Undo
 
-This one is state 5. It is essentially the same as the state 1 home page (although this image is displaying the month calendar), but it shows a toast notification with the option to undo the last action (adding, editing, removing a task, etc.).
+This one is state 5. It is essentially the same as the state 1 home page (although this image is displaying the month calendar), but it shows a toast notification with the option to undo the last action (adding, editing, removing a task, etc.). Pressing undo should undo whatever action was just taken and return the user to the home page.
 
 <br>
 {{< figure src="/assets/task-list/wf-5-month.png" >}}

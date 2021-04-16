@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="language" content="en">
   <meta name="description" content="This is a simple to-do app that I want to expand into a smart task scheduler.">
-  <meta name="keywords" content="to-do , task , machine learning , ml , data science , UX/UI , mockflow , tailwind , vue.js , vuetify">
+  <meta name="keywords" content="to-do , task , machine learning , ml , data science , UX/UI , mockflow , tailwind , vue.js , vuetify , firebase">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -126,7 +126,7 @@ if (!doNotTrack) {
   
    target="_blank" rel="noreferrer noopener" 
 >here</a>
-. This project was built in Vue.js and is currently styled using vuetify.</p>
+. This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.</p>
 <br>
 <figure>
     <img src="/assets/task-list/to-do-current.png"
@@ -137,11 +137,12 @@ if (!doNotTrack) {
 </figure>
 
 <h2 id="what-next">What Next?<a class="anchor" href="#what-next">#</a></h2>
-<p>As I&rsquo;ve thought about this fairly standard project, I&rsquo;ve realized it doesn&rsquo;t have many interesting advantages over a standard paper to-do list. Sure, it&rsquo;s clean, but it&rsquo;s essentially the same as a physical version.</p>
+<p>As I&rsquo;ve thought about this fairly standard project, I&rsquo;ve realized it doesn&rsquo;t have many interesting advantages over a standard paper to-do list. Sure, it&rsquo;s clean, but it&rsquo;s essentially the same as a physical version. You can add, edit, delete, and mark tasks as complete.</p>
 <p>Possible improvements that would give this project a major advantage over a paper to-do list are:</p>
 <ul>
 <li>Incorporate a schedule</li>
 <li>Use ML to estimate task duration</li>
+<li>Suggest tasks for open slots in schedule</li>
 <li>Incorporate other useful fields, such as deadlines and scheduled events</li>
 <li>Categorize tasks</li>
 <li>Use ML to auto-fill fields</li>
@@ -189,21 +190,21 @@ if (!doNotTrack) {
 </figure>
 
 <h3 id="task-details">Task Details<a class="anchor" href="#task-details">#</a></h3>
-<p>This is state 3 and is shown when a task is selected.</p>
+<p>This is state 3 and is shown when a task is selected. From this state, the user can edit or delete a task or deselect the task and return to state 1.</p>
 <br>
 <figure>
     <img src="/assets/task-list/wf-3-month.png"/> 
 </figure>
 
 <h3 id="addedit-task">Add/Edit Task<a class="anchor" href="#addedit-task">#</a></h3>
-<p>This is state 4. Edit is the same as this &lsquo;Add Task&rsquo; page but populates fields with data and changes the title from &lsquo;Add&rsquo; to &lsquo;Edit.&rsquo;</p>
+<p>This page is state 4. The edit version is the same as this &lsquo;Add Task&rsquo; page but populates fields with data and changes the title from &lsquo;Add&rsquo; to &lsquo;Edit.&rsquo; From this page, the user can fill out the form and cancel or save the task.</p>
 <br>
 <figure>
     <img src="/assets/task-list/wf-4-month.png"/> 
 </figure>
 
 <h3 id="home-page-with-undo">Home Page with Undo<a class="anchor" href="#home-page-with-undo">#</a></h3>
-<p>This one is state 5. It is essentially the same as the state 1 home page (although this image is displaying the month calendar), but it shows a toast notification with the option to undo the last action (adding, editing, removing a task, etc.).</p>
+<p>This one is state 5. It is essentially the same as the state 1 home page (although this image is displaying the month calendar), but it shows a toast notification with the option to undo the last action (adding, editing, removing a task, etc.). Pressing undo should undo whatever action was just taken and return the user to the home page.</p>
 <br>
 <figure>
     <img src="/assets/task-list/wf-5-month.png"/> 
@@ -229,7 +230,7 @@ if (!doNotTrack) {
 <ul class="tags__list">
     
     <li class="tag__item">
-        <a class="tag__link" href="https://chase-mortensen.github.io/tags/machine-learning/">machine-learning</a>
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/ml/">ML</a>
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://chase-mortensen.github.io/tags/ux/ui/">UX/UI</a>
@@ -244,7 +245,10 @@ if (!doNotTrack) {
         <a class="tag__link" href="https://chase-mortensen.github.io/tags/vue.js/">vue.js</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://chase-mortensen.github.io/tags/vuetify/">vuetify</a>
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/firebase/">firebase</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/js/">JS</a>
     </li></ul>
 
  <div class="pagination">

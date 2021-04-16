@@ -3,9 +3,9 @@ title: "FaceOverlay"
 date: 2021-04-14T20:23:29-04:00
 slug: "faceoverlay"
 description: "FaceOverlay is an educational tool for machine learning."
-keywords: ["faceoverlay", "machine learning", "ml", "data science"]
+keywords: ["faceoverlay", "machine learning", "ml", "data science", "JS"]
 draft: false
-tags: ["machine-learning", "data-science", "UX/UI"]
+tags: ["ML", "data-science", "UX/UI", "JS"]
 math: false
 toc: true
 ---

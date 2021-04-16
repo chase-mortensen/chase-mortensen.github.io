@@ -13,11 +13,29 @@
     
     
     <item>
-      <title>machine-learning</title>
-      <link>https://chase-mortensen.github.io/tags/machine-learning/</link>
+      <title>firebase</title>
+      <link>https://chase-mortensen.github.io/tags/firebase/</link>
       <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
       
-      <guid>https://chase-mortensen.github.io/tags/machine-learning/</guid>
+      <guid>https://chase-mortensen.github.io/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JS</title>
+      <link>https://chase-mortensen.github.io/tags/js/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://chase-mortensen.github.io/tags/ml/</link>
+      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/ml/</guid>
       <description></description>
     </item>
     
@@ -45,15 +63,6 @@
       <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/vue.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vuetify</title>
-      <link>https://chase-mortensen.github.io/tags/vuetify/</link>
-      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
-      
-      <guid>https://chase-mortensen.github.io/tags/vuetify/</guid>
       <description></description>
     </item>
     
