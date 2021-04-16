@@ -15,7 +15,11 @@ toc: true
 <br>
 {{< figure src="/assets/about/graduation.jpg" >}}
 
-I'm a musician, artist, uncle, skier, mountain biker, pickleballer, and, since January, vegan. I love being outside and I've been trying to propagate succulents lately. I've struggled to really get into any books for a while - I miss sitting down and reading for hours and not consciously thinking about the fact I'm reading every few minutes. Currently, I'm reading [Good Omens](https://www.amazon.com/Good-Omens-Accurate-Prophecies-Nutter/dp/0060853980) - and I'm enjoying it quite a bit. I binge-watched The Good Place and got a little teary-eyed during the final episode.
+Here's a few quick facts about me:
+* I'm a musician, artist, uncle, skier, mountain biker, pickleballer, and, since January, vegan. 
+* I love being outside and I've been trying to propagate succulents lately. 
+* I've struggled to really get into any books for a while - I miss sitting down and reading for hours and not consciously thinking about the fact I'm reading every few minutes. Currently, I'm trying to get back into reading with [Good Omens](https://www.amazon.com/Good-Omens-Accurate-Prophecies-Nutter/dp/0060853980) - and I'm enjoying it quite a bit. 
+* I binge-watched The Good Place and got a little teary-eyed during the final episode.
 
 <br>
 {{< figure src="/assets/about/succulent-propagation.jpg" >}}
