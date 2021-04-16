@@ -43,7 +43,9 @@ Thankfully, these interactions can be improved through the iterative design proc
 
 Here is a link to my [current resume](https://docs.google.com/document/d/1n6EZnqZ7fKQOiMqzuc861H2rILZMZI1M50QWzNnkzJc/edit?usp=sharing).
 
-This site is a work in progress and will contain more information about me and my projects soon. Stay tuned!
+This site is a work in progress and will contain more information about me and my projects soon. Stay tuned! 
 
+My email is chase@chase-mortensen.dev if you have book recommendations or would like to introduce yourself. Thanks!
 
+Chase
 
