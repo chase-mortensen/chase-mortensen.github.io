@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 02:23:29 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 22 Apr 2021 00:12:29 -0400</lastBuildDate>
     
 	<atom:link href="https://chase-mortensen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DIY</title>
+      <link>https://chase-mortensen.github.io/tags/diy/</link>
+      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaming</title>
+      <link>https://chase-mortensen.github.io/tags/gaming/</link>
+      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HCD</title>
+      <link>https://chase-mortensen.github.io/tags/hcd/</link>
+      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/hcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://chase-mortensen.github.io/tags/mobile/</link>
+      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/mobile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>JS</title>

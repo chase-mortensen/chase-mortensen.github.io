@@ -5,7 +5,7 @@ slug: "faceoverlay"
 description: "FaceOverlay is an educational tool for machine learning."
 keywords: ["faceoverlay", "machine learning", "ml", "data science", "JS"]
 draft: false
-tags: ["ML", "data-science", "UX/UI", "JS"]
+tags: ["ML", "data-science", "UX/UI", "JS", "HCD"]
 math: false
 toc: true
 ---
