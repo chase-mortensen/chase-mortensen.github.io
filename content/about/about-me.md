@@ -16,7 +16,7 @@ toc: true
 {{< figure src="/assets/about/graduation.jpg" >}}
 
 Here's a few quick facts about me:
-* I'm a musician, artist, uncle, skier, mountain biker, pickleballer, and, since January, vegan. 
+* I'm a musician, artist, uncle, skier, mountain biker, and avid pickleballer. 
 * I love being outside and I've been trying to propagate succulents lately. 
 * I've struggled to really get into any books for a while - I miss sitting down and reading for hours and not consciously thinking about the fact I'm reading every few minutes. Currently, I'm trying to get back into reading with [Good Omens](https://www.amazon.com/Good-Omens-Accurate-Prophecies-Nutter/dp/0060853980) - and I'm enjoying it quite a bit. 
 * I binge-watched The Good Place and got a little teary-eyed during the final episode.
@@ -41,11 +41,11 @@ Thankfully, these interactions can be improved through the iterative design proc
 
 ## Resume
 
-Here is a link to my [current resume](https://docs.google.com/document/d/1n6EZnqZ7fKQOiMqzuc861H2rILZMZI1M50QWzNnkzJc/edit?usp=sharing).
+Here is a link to my [current resume](https://docs.google.com/document/d/1gkz9kz9-ugiBM0kcGmHaRdeoZJDfPU75ycJA8P3ee7E/edit?usp=sharing).
 
 This site is a work in progress and will contain more information about me and my projects soon. Stay tuned! 
 
-My email is chase@chase-mortensen.dev if you have book recommendations or would like to introduce yourself. Thanks!
+My email is chase@chase-mortensen.dev if you have book recommendations, want to play pickleball, or would like to introduce yourself. Thanks!
 
 Chase
 
