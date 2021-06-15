@@ -28,7 +28,7 @@ For my final project in the course, I wanted to make a mobile gaming device. I l
       
       <guid>https://chase-mortensen.github.io/projects/task-list/</guid>
       <description>Current Project This project (code here ) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn&amp;rsquo;t fully functional, but you can see a demo here . This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.
-  Current Version ↑   What Next?</description>
+  Current Version ↑</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ For my final project in the course, I wanted to make a mobile gaming device. I l
       
       <guid>https://chase-mortensen.github.io/projects/faceoverlay/</guid>
       <description>Intro FaceOverlay (also known as SmileyCluster ) is an educational tool for machine learning under development in Dr. Zhen Bai&amp;rsquo;s lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience.
-  UR&amp;rsquo;s Rush Rhees Library ↑   Chernoff Faces Chernoff Faces are a tool for visualizing multivariate data.</description>
+  UR&amp;rsquo;s Rush Rhees Library ↑</description>
     </item>
     
   </channel>

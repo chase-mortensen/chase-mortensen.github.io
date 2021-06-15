@@ -19,7 +19,7 @@
       
       <guid>https://chase-mortensen.github.io/projects/task-list/</guid>
       <description>Current Project This project (code here ) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn&amp;rsquo;t fully functional, but you can see a demo here . This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.
-  Current Version ↑   What Next?</description>
+  Current Version ↑</description>
     </item>
     
   </channel>
