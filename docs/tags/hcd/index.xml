@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 22 Apr 2021 00:12:29 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jun 2021 02:23:29 -0400</lastBuildDate>
     
 	<atom:link href="https://chase-mortensen.github.io/tags/hcd/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Task List</title>
+      <link>https://chase-mortensen.github.io/projects/task-list/</link>
+      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/projects/task-list/</guid>
+      <description>Current Project This project (code here ) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn&amp;rsquo;t fully functional, but you can see a demo here . This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.
+  Current Version ↑</description>
+    </item>
     
     <item>
       <title>Mobile Gaming Device</title>
@@ -20,16 +30,6 @@
       <guid>https://chase-mortensen.github.io/projects/mobile-gaming/</guid>
       <description>Intro In 2016, I took a class called Digital Making and Learning that ultimately lead me to the Learn Explore Design Lab . This class was amazing and was where I first read Don Norman&amp;rsquo;s The Design of Everyday Things . I learned about feedback, signifiers, and many other aspects of human-centered design.
 For my final project in the course, I wanted to make a mobile gaming device. I loved my Game Boy Advance when I was younger and wanted to recreate the experience I had with my own modern version.</description>
-    </item>
-    
-    <item>
-      <title>Task List</title>
-      <link>https://chase-mortensen.github.io/projects/task-list/</link>
-      <pubDate>Thu, 15 Apr 2021 02:23:29 -0400</pubDate>
-      
-      <guid>https://chase-mortensen.github.io/projects/task-list/</guid>
-      <description>Current Project This project (code here ) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn&amp;rsquo;t fully functional, but you can see a demo here . This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.
-  Current Version ↑</description>
     </item>
     
     <item>

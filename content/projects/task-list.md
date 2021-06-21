@@ -1,6 +1,6 @@
 ---
 title: "Task List"
-date: 2021-04-15T02:23:29-04:00
+date: 2021-06-21T02:23:29-04:00
 slug: "task-list"
 description: "This is a simple to-do app that I want to expand into a smart task scheduler."
 keywords: ["to-do", "task", "machine learning", "ml", "data science", "UX/UI", "mockflow", "tailwind", "vue.js", "vuetify", "firebase"]
@@ -96,3 +96,7 @@ I am really excited about this project and I think it could be a useful tool for
 What do you think? Let me know at chase@chase-mortensen.dev.
 
 Chase
+
+## Update 6/21/2021
+
+I've been slowly making progress on this project. I've been focusing on the frontend mainly, but I'm working on a GraphQL backend using Hasura. I think that working on the frontend (using Vue) first has helped me understand more about what I will need the backend to do, so hopefully it goes pretty smoothly. I just wanted to add a few screen shots to show how the app is coming along. It's definitely incomplete at this point, but you can see a few images [here](https://photos.app.goo.gl/NvD2ZusJWndLPR886) to see the current progress. Thanks!
