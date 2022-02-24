@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>site-performance on ckm</title>
+    <link>https://chase-mortensen.github.io/tags/site-performance/</link>
+    <description>Recent content in site-performance on ckm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Wed, 23 Feb 2022 20:54:29 -0400</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/site-performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Vitals 101: The Foundation of Good User Experience</title>
+      <link>https://chase-mortensen.github.io/posts/web-vitals/</link>
+      <pubDate>Wed, 23 Feb 2022 20:54:29 -0400</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/posts/web-vitals/</guid>
+      <description>This post is an introduction to the Web Vitals initiative from Google and why Web Vitals matter for your sites. Most of the content is summarized from Google’s articles on Web Vitals [1] and there are links throughout this article for further reading.
+Part 1: What are Web Vitals and why do they matter? Your browser does not support the video tag.  Web Vitals are site metrics that measure some critical pillars of user experience.</description>
+    </item>
+    
+  </channel>
+</rss>

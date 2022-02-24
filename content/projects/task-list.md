@@ -3,9 +3,9 @@ title: "Task List"
 date: 2021-06-21T02:23:29-04:00
 slug: "task-list"
 description: "This is a simple to-do app that I want to expand into a smart task scheduler."
-keywords: ["to-do", "task", "machine learning", "ml", "data science", "UX/UI", "mockflow", "tailwind", "vue.js", "vuetify", "firebase"]
+keywords: ["to-do", "task", "machine learning", "ml", "data science", "UX", "UI", "user-experience", "user-interface", "mockflow", "tailwind", "vue.js", "vuetify", "firebase"]
 draft: false
-tags: ["ML", "UX/UI", "wireframing", "vue.js", "JS", "HCD"]
+tags: ["machine-learning", "user-experience", "user-interface", "wireframing", "vue.js", "javascript", "human-centered-design"]
 math: false
 toc: true
 ---

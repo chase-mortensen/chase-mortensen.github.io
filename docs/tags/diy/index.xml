@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DIY on ckm</title>
+    <title>diy on ckm</title>
     <link>https://chase-mortensen.github.io/tags/diy/</link>
-    <description>Recent content in DIY on ckm</description>
+    <description>Recent content in diy on ckm</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 22 Apr 2021 00:12:29 -0400</lastBuildDate>
-    
-	<atom:link href="https://chase-mortensen.github.io/tags/diy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 22 Apr 2021 00:12:29 -0400</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/diy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mobile Gaming Device</title>
       <link>https://chase-mortensen.github.io/projects/mobile-gaming/</link>
       <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
       
       <guid>https://chase-mortensen.github.io/projects/mobile-gaming/</guid>
-      <description>Intro In 2016, I took a class called Digital Making and Learning that ultimately lead me to the Learn Explore Design Lab . This class was amazing and was where I first read Don Norman&amp;rsquo;s The Design of Everyday Things . I learned about feedback, signifiers, and many other aspects of human-centered design.
+      <description>Intro In 2016, I took a class called Digital Making and Learning that ultimately lead me to the Learn Explore Design Lab. This class was amazing and was where I first read Don Norman&amp;rsquo;s The Design of Everyday Things. I learned about feedback, signifiers, and many other aspects of human-centered design.
 For my final project in the course, I wanted to make a mobile gaming device. I loved my Game Boy Advance when I was younger and wanted to recreate the experience I had with my own modern version.</description>
     </item>
     

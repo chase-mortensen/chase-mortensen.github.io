@@ -22,6 +22,8 @@ For Windows users, you can install with `choco`:
 choco install hugo-extended -confirm
 ```
 
+Note that this theme only supports Hugo version 82 and above.
+
 ### Getting started
 
 At the root of your Hugo project, run:
@@ -222,7 +224,7 @@ Check out the [CONTRIBUTORS.md file](https://github.com/jakewies/hugo-theme-code
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -257,6 +259,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/skvale"><img src="https://avatars0.githubusercontent.com/u/5314713?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sam Kvale</b></sub></a><br /><a href="https://github.com/jakewies/hugo-theme-codex/commits?author=skvale" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/macxcool"><img src="https://avatars.githubusercontent.com/u/2531654?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark C</b></sub></a><br /><a href="https://github.com/jakewies/hugo-theme-codex/commits?author=macxcool" title="Code">💻</a></td>
     <td align="center"><a href="https://rbn.is"><img src="https://avatars.githubusercontent.com/u/5955614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin</b></sub></a><br /><a href="https://github.com/jakewies/hugo-theme-codex/commits?author=rbnis" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/gprst"><img src="https://avatars.githubusercontent.com/u/32643653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gprst</b></sub></a><br /><a href="https://github.com/jakewies/hugo-theme-codex/commits?author=gprst" title="Code">💻</a> <a href="#design-gprst" title="Design">🎨</a></td>
+    <td align="center"><a href="http://michaelwatts.me"><img src="https://avatars.githubusercontent.com/u/811806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael Watts</b></sub></a><br /><a href="https://github.com/jakewies/hugo-theme-codex/commits?author=altescape" title="Code">💻</a></td>
   </tr>
 </table>
 

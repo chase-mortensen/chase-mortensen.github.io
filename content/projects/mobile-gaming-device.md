@@ -3,9 +3,9 @@ title: "Mobile Gaming Device"
 date: 2021-04-22T00:12:29-04:00
 slug: "mobile-gaming"
 description: "Reminiscing on my beloved Game Boy Advance, I wanted to my own modern version."
-keywords: ["mobile", "UX/UI", "PICO-8", "Game Boy Advance", "Nintendo", "DIY", "Raspberry Pi"]
+keywords: ["mobile", "user-experience", "user-interface", "PICO-8", "Game Boy Advance", "Nintendo", "DIY", "Raspberry Pi"]
 draft: false
-tags: ["Mobile", "UX/UI", "Gaming", "DIY", "HCD"]
+tags: ["mobile", "user-experience", "user-interface", "gaming", "diy", "human-centered-design"]
 math: false
 toc: true
 ---

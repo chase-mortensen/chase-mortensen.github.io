@@ -109,11 +109,12 @@ $tocBreakpoint: 1024px;
   margin: 1.5rem 0 0;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .tag__item {
-  margin-right: 1rem;
+  margin: 1rem 1rem 0 0;
   display: inline-block;
 
   &:last-child {
@@ -129,6 +130,7 @@ $tocBreakpoint: 1024px;
   background: lighten($primary, 41%);
   color: $primary;
   font-size: 0.8rem;
+  white-space: nowrap;
 
   &:hover {
     background: lighten($primary, 38%);

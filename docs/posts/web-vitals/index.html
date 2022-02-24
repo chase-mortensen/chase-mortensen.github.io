@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Web Vitals 101: The Foundation of Good User Experience | ckm</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="Core Web Vitals provide a foundation for good user experience.">
+  <meta name="keywords" content="web vitals , user experience , core web vitals , javascript , web performance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Web Vitals 101: The Foundation of Good User Experience" />
+  <meta name="twitter:description" content="Core Web Vitals provide a foundation for good user experience."/>
+  <meta name="twitter:site" content="@chasekmortensen" />
+  <meta name="twitter:creator" content="https://twitter.com/chasekmortensen" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.b689678c911ef5a244b566d5c034c6b76d8ccdfcfeb5bc66a7760182f0a64916.css" integrity="sha256-tolnjJEe9aJEtWbVwDTGt22Mzfz&#43;tbxmp3YBgvCmSRY="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "https:\/\/chase-mortensen.github.io\/posts\/web-vitals\/",
+      "name": "Web Vitals 101: The Foundation of Good User Experience",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": "Core Web Vitals provide a foundation for good user experience."
+    }
+  
+  </script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-121096353-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/"> hello</a>
+      </li>
+    
+      <li>
+        <a  href="/about/about-me">about</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/posts">posts</a>
+      </li>
+    
+      <li>
+        <a  href="/projects">projects</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Web Vitals 101: The Foundation of Good User Experience</h1>
+            <time datetime="2022-02-23 20:54:29 -0400 -0400" class="post__date">23 Feb 2022</time> 
+          </header>
+          <article class="post__content">
+              
+<p>This post is an introduction to the <a href="https://web.dev/vitals/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Web Vitals initiative</a> from Google and why Web Vitals matter for your sites. Most of the content is summarized from Google’s articles on Web Vitals [1] and there are links throughout this article for further reading.</p>
+<h2 id="part-1-what-are-web-vitals-and-why-do-they-matter">Part 1: What are Web Vitals and why do they matter?<a class="anchor" href="#part-1-what-are-web-vitals-and-why-do-they-matter">#</a></h2>
+<video width=100% controls autoplay>
+    <source src="/assets/web-vitals/cls.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+<p>Web Vitals are site metrics that measure some critical pillars of user experience. This Google initiative provides universally applicable benchmarks that can help developers focus on areas that have the greatest impact on user experience and site quality. These metrics can change over time.</p>
+<p>Web Vitals are important for every site looking to provide a good user experience. A good user experience can make the difference between a one-time visitor leaving the site out of frustration and a regular user. While the user’s experience involves much more than Web Vitals, the metrics provide a solid foundation for a good user experience.</p>
+<h3 id="core-web-vitals">Core Web Vitals<a class="anchor" href="#core-web-vitals">#</a></h3>
+<p>Out of the Web Vitals, Google has designated 3 metrics as Core Web Vitals. These three measurements are great indicators of loading performance, interactivity, and layout stability [1] - three important building blocks of good user experience.</p>
+<p>Here’s a quick <a href="https://web.dev/vitals/#core-web-vitals" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>explanation from Google</a> on three of the most important Web Vitals (known as Core Web Vitals):</p>
+<ul>
+<li>
+<p>“<a href="https://web.dev/lcp/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Largest Contentful Paint (LCP)</a> measures <em>loading</em> performance. To provide a good user experience, LCP should occur within <strong>2.5 seconds</strong> of when the page first starts loading.” [1]</p>
+<p>LCP &ldquo;measures when the largest content element in the viewport becomes visible. It can be used to determine when the main content of the page has finished rendering on the screen.&rdquo; [2]</p>
+</li>
+<li>
+<p>“<a href="https://web.dev/fid/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>First Input Delay (FID)</a> measures <em>interactivity</em>. To provide a good user experience, pages should have a FID of <strong>100 milliseconds</strong> or less.” [1]</p>
+<p>Here&rsquo;s Google&rsquo;s explanation: “FID measures the time from when a user first interacts with a page (i.e. when they click a link, tap on a button, or use a custom, JavaScript-powered control) to the time when the browser is actually able to begin processing event handlers in response to that interaction.” [3]</p>
+<ul>
+<li>One note with FID - it requires real user data and not lab data. For that reason, <a href="https://web.dev/tbt/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Total Blocking Time (TBT)</a> is recommended as a substitute for FID in situations where user data is not available.</li>
+</ul>
+</li>
+<li>
+<p>“<a href="https://web.dev/cls/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Cumulative Layout Shift (CLS)</a> measures <em>visual stability</em>. To provide a good user experience, pages should maintain a CLS of <strong>0.1.</strong> or less.”  [1]</p>
+<p>“CLS - a  Core Web Vitals metric, measures the instability of content by summing shift scores across layout shifts that don’t occur within 500ms of user input. It looks at how much visible content shifted in the viewport as well as the distance the elements impacted were shifted.” [4]</p>
+<p>The CLS measurement is a little complicated, so I won&rsquo;t get into it here. A score of 0 is ideal, meaning there are no unexpected movements. You can read the full explanation <a href="https://web.dev/cls/#layout-shifts-in-detail" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>here</a>.</p>
+</li>
+</ul>
+<h3 id="other-web-vitals">Other Web Vitals<a class="anchor" href="#other-web-vitals">#</a></h3>
+<p>We’ll focus on the 3 Core Web Vitals, but other Web Vitals include</p>
+<ul>
+<li>
+<p><a href="https://web.dev/ttfb/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Time to First Byte (TTFB)</a>  - “TTFB is a metric that measures the time between the request for a resource and when the first byte of a response begins to arrive.” [5]</p>
+</li>
+<li>
+<p><a href="https://web.dev/fcp/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>First Contentful Paint (FCP)</a>  - “The First Contentful Paint (FCP) metric measures the time from when the page starts loading to when any part of the page’s content is rendered on the screen.” [6]</p>
+</li>
+<li>
+<p><a href="https://web.dev/tbt/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Total Blocking Time (TBT)</a>  - “TBT measures the total amount of time between First Contentful Paint and Time to Interactive during which the page is blocked from responding to user input”.  [7]</p>
+</li>
+<li>
+<p><a href="https://web.dev/tti/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Time to Interactive (TTI)</a> - “The TTI metric measures the time from when the page starts loading to when its main sub-resources have loaded and it is capable of reliably responding to user input quickly.” [8] <br></p>
+</li>
+</ul>
+<hr>
+<h2 id="part-2-how-can-i-check-my-web-vitals">Part 2: How Can I Check My Web Vitals?<a class="anchor" href="#part-2-how-can-i-check-my-web-vitals">#</a></h2>
+<p>Broadly, there are two ways of <a href="https://web.dev/vitals-measurement-getting-started/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>measuring Web Vitals</a>; lab data and real-world data, which is called Real User Monitoring (RUM) data. Ideally, both types of data will be used to check Web Vitals. Keep in mind the following: “There will always be discrepancies between RUM data and lab (or synthetic) data - particularly if the network conditions, device type, or location of the lab environment differs significantly from that of users.” [9]</p>
+<h3 id="recommended-tools">Recommended Tools<a class="anchor" href="#recommended-tools">#</a></h3>
+<h4 id="tools-for-both-rum-data-and-lab-data">Tools for both RUM data and lab data</h4>
+<ol>
+<li>
+<p><a href="https://pagespeed.web.dev/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>PageSpeed Insights</a> - This site is simple and straightforward - enter a URL and it generates a report. It’s not the most comprehensive tool, but it’s easy to use and provides a summary of insights super fast. There are some issues with the site and it does crash fairly often.</p>
+</li>
+<li>
+<p><a href="https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>CrUX dashboard</a>  - Both CrUX (Chrome User Experience) dashboard and PageSpeed Insights are based on the Chrome UX Report, so it’s the same data, but the CrUX dashboard feels a little more comprehensive (it includes historical data) than PageSpeed Insights.</p>
+</li>
+</ol>
+<h4 id="tools-for-lab-data">Tools for Lab Data</h4>
+<ol>
+<li>
+<p><a href="https://github.com/GoogleChrome/web-vitals-extension" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Web Vitals Chrome Extension</a>  - “The Web Vitals Chrome extension measures and reports the Core Web Vitals (LCP, FID, and CLS) for a given page. This tool is intended to provide developers with real-time performance feedback as they make code changes.” [9] This has been a useful tool for me as I navigate to different pages of a site and is really fast and easy to use.</p>
+</li>
+<li>
+<p>Lighthouse - Lighthouse is a great tool for measuring various Web Vitals and other important metrics, including accessibility, best practices, and SEO. Lighthouse is located on Chrome in the developer tools.</p>
+</li>
+<li>
+<p><a href="https://webpagetest.org/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>WebPageTest</a> - “WebPageTest includes Web Vitals as a part of its standard reporting. WebPageTest is useful for gathering information on Web Vitals under particular device and network conditions.” [9]</p>
+</li>
+</ol>
+<h3 id="collecting-real-user-monitoring-rum-data">Collecting Real User Monitoring (RUM) Data<a class="anchor" href="#collecting-real-user-monitoring-rum-data">#</a></h3>
+<p>One option for collecting your own RUM data is the <a href="https://github.com/GoogleChrome/web-vitals" 
+  
+   target="_blank" rel="noreferrer noopener" 
+><code>web-vitals</code> JavaScript library</a> - “<code>web-vitals</code> is a small, modular library (~1KB) that provides a convenient API for collecting and reporting each of the field-measurable Web Vitals metrics.” [9] <br><br></p>
+<hr>
+<h2 id="part-3-improving-web-vitals">Part 3: Improving Web Vitals<a class="anchor" href="#part-3-improving-web-vitals">#</a></h2>
+<p>In this section, I’ll go through a few of the most common issues for each of the Core Web Vitals and provide resources that you can use to improve your site.</p>
+<h3 id="optimizing-largest-contentful-paint-lcphttpswebdevoptimize-lcp"><a href="https://web.dev/optimize-lcp/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Optimizing Largest Contentful Paint (LCP)</a></h3>
+<p>LCP measures “when the largest element was rendered.” [2] The types of elements considered for LCP are <code>&lt;img&gt;</code>, <code>&lt;image&gt;</code> inside of <code>&lt;svg&gt;</code>, <code>&lt;video&gt;</code>, elements with a background image using <code>url()</code>, and “block-level elements containing text nodes or other inline-level text elements children.” [10]</p>
+<p>According to Google, LCP is mainly affected by:</p>
+<ul>
+<li>Slow server response times</li>
+<li>Render-blocking JavaScript and CSS</li>
+<li>Resource load times</li>
+<li>Client-side rendering [10]</li>
+</ul>
+<p>For tips on fixing LCP, see <a href="https://web.dev/lcp/#how-to-improve-lcp" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>this article</a>.</p>
+<h3 id="optimizing-first-input-delay-fidhttpswebdevoptimize-fid"><a href="https://web.dev/optimize-fid/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Optimizing First Input Delay (FID)</a></h3>
+<p>“The main cause of a poor FID is <strong>heavy JavaScript execution</strong>. Optimizing how JavaScript parses, compiles, and executes on your web page will directly reduce FID.” [11]</p>
+<p>Methods to improve FID mentioned in that article include:</p>
+<ul>
+<li>Breaking up Long Tasks</li>
+<li>Optimizing your page for interaction readiness</li>
+<li>Using a web worker</li>
+<li>Reducing JavaScript execution time</li>
+</ul>
+<h3 id="optimizing-cumulative-layout-shift-clshttpswebdevoptimize-cls"><a href="https://web.dev/optimize-cls/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Optimizing Cumulative Layout Shift (CLS)</a></h3>
+<p>According to Google, “Unexpected movement of page content usually happens because resources are loaded asynchronously or DOM elements get dynamically added to the page above existing content. The culprit might be an image or video with unknown dimensions, a font that renders larger or smaller than its fallback, or a third-party ad or widget that dynamically resizes itself.” [12]</p>
+<p><a href="https://web.dev/optimize-cls/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>This article</a> outlines the main factors that affect CLS, including:</p>
+<ul>
+<li>Images without dimensions</li>
+<li>Ads, embeds, and iframes without dimensions</li>
+<li>Dynamically injected content</li>
+<li>Web Fonts causing FOIT/FOUT</li>
+<li>Actions waiting for a network response before updating DOM</li>
+</ul>
+<h2 id="conclusion">Conclusion<a class="anchor" href="#conclusion">#</a></h2>
+<p>I know this has been an information dump with a ton of links. There is a lot to dig into and it’s easy to get overwhelmed with all of the metrics and tools. If you’re looking at Web Vitals for the first time, just remember the 3 Core Web Vitals - Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift.</p>
+<p>If you’re looking to improve your site, take a look at <a href="https://pagespeed.web.dev/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>PageSpeed Insights</a>. It provides quick feedback and even suggests ideas for improving your Core Web Vitals. I’d also suggest installing the <a href="https://github.com/GoogleChrome/web-vitals-extension" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Web Vitals Chrome Extension</a>. The extension is super easy to use and gain insight from synthetic data.</p>
+<p>Web Vitals are an essential tool for developers and UX designers. If our sites don’t provide a good user experience, we risk causing frustration and driving away users. Web Vitals help us build a solid foundation for a good user experience.</p>
+<p>What do you think? Let me know at <a href="mailto:chase@chase-mortensen.dev" 
+   target="_blank" 
+  
+>chase@chase-mortensen.dev</a>.</p>
+<p>Chase</p>
+<h2 id="sources">Sources<a class="anchor" href="#sources">#</a></h2>
+<p>[1] <a href="https://web.dev/vitals/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Web Vitals</a></p>
+<p>[2] <a href="https://web.dev/optimize-lcp/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Optimize Largest Contentful Paint</a></p>
+<p>[3] <a href="https://web.dev/fid/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>First Input Delay (FID)</a></p>
+<p>[4] <a href="https://web.dev/optimize-cls/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Optimize Cumulative Layout Shift</a></p>
+<p>[5] <a href="https://web.dev/ttfb/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Time to First Byte (TTFB)</a></p>
+<p>[6] <a href="https://web.dev/fcp/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>First Contentful Paint (FCP)</a></p>
+<p>[7] <a href="https://web.dev/tbt/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Total Blocking Time (TBT</a></p>
+<p>[8] <a href="https://web.dev/tti/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Time to Interactive (TTI)</a></p>
+<p>[9] <a href="https://web.dev/vitals-measurement-getting-started/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Getting started with measuring Web Vitals</a></p>
+<p>[10] <a href="https://web.dev/lcp/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Largest Contentful Paint (LCP)</a></p>
+<p>[11] <a href="https://web.dev/optimize-fid/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Optimize First Input Delay</a></p>
+<p>[12] <a href="https://web.dev/cls/#layout-shifts-in-detail" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Cumulative Layout Shift (CLS)</a></p>
+<h3 id="other-links">Other Links<a class="anchor" href="#other-links">#</a></h3>
+<p><a href="https://pagespeed.web.dev/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>PageSpeed Insights</a></p>
+<p><a href="https://developers.google.com/web/updates/2018/08/chrome-ux-report-dashboard" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>CrUX dashboard</a></p>
+<p><a href="https://github.com/GoogleChrome/web-vitals-extension" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Web Vitals Chrome Extension</a></p>
+<p><a href="https://webpagetest.org/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>WebPageTest</a></p>
+<p><a href="https://github.com/GoogleChrome/web-vitals" 
+  
+   target="_blank" rel="noreferrer noopener" 
+><code>web-vitals</code> JavaScript library</a></p>
+<p><a href="https://blog.speedvitals.com/delay-javascript/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Delay Javascript to Boost Web Vitals Score</a></p>
+<!-- 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ZJthWmvUzzc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+ -->
+<!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”<br>— Jan Tschichold <a href="https://t.co/gcv7SrhvJb">pic.twitter.com/gcv7SrhvJb</a></p>&mdash; Graphic Design History (@DesignReviewed) <a href="https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw">January 17, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ -->
+
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/site-performance/">site-performance</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/user-experience/">user-experience</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/web-vitals/">web-vitals</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/human-centered-design/">human-centered-design</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/chase-mortensen"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://chase-mortensen.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Email"
+        href="mailto:chase@chase-mortensen.dev"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://chase-mortensen.github.io/svg/email.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/chasekmortensen/"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://chase-mortensen.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Twitter"
+        href="https://twitter.com/chasekmortensen"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://chase-mortensen.github.io/svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Instagram"
+        href="https://www.instagram.com/chasekmortensen/"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://chase-mortensen.github.io/svg/instagram.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2022</p>
+          </footer>
+          </div>
+      </div>
+      
+      <div class="toc-container">
+           <div class="toc-post-title">Web Vitals 101: The Foundation of Good User Experience</div> 
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#part-1-what-are-web-vitals-and-why-do-they-matter">Part 1: What are Web Vitals and why do they matter?</a>
+      <ul>
+        <li><a href="#core-web-vitals">Core Web Vitals</a></li>
+        <li><a href="#other-web-vitals">Other Web Vitals</a></li>
+      </ul>
+    </li>
+    <li><a href="#part-2-how-can-i-check-my-web-vitals">Part 2: How Can I Check My Web Vitals?</a>
+      <ul>
+        <li><a href="#recommended-tools">Recommended Tools</a></li>
+        <li><a href="#collecting-real-user-monitoring-rum-data">Collecting Real User Monitoring (RUM) Data</a></li>
+      </ul>
+    </li>
+    <li><a href="#part-3-improving-web-vitals">Part 3: Improving Web Vitals</a>
+      <ul>
+        <li><a href="#optimizing-largest-contentful-paint-lcphttpswebdevoptimize-lcp"><a href="https://web.dev/optimize-lcp/">Optimizing Largest Contentful Paint (LCP)</a></a></li>
+        <li><a href="#optimizing-first-input-delay-fidhttpswebdevoptimize-fid"><a href="https://web.dev/optimize-fid/">Optimizing First Input Delay (FID)</a></a></li>
+        <li><a href="#optimizing-cumulative-layout-shift-clshttpswebdevoptimize-cls"><a href="https://web.dev/optimize-cls/">Optimizing Cumulative Layout Shift (CLS)</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#sources">Sources</a>
+      <ul>
+        <li><a href="#other-links">Other Links</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.575dda8d49ee02639942c63564273e6da972ab531dda26a08800bdcb477cbd7f.js" integrity="sha256-V13ajUnuAmOZQsY1ZCc&#43;balyq1Md2iagiAC9y0d8vX8=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+    <script src="/js/table-of-contents.js"></script>
+  
+
+
+</body>
+
+</html>

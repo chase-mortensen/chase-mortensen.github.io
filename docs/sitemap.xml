@@ -1,98 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://chase-mortensen.github.io/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/human-centered-design/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/posts/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/site-performance/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/user-experience/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/posts/web-vitals/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/web-vitals/</loc>
+    <lastmod>2022-02-23T20:54:29-04:00</lastmod>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/javascript/</loc>
     <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chase-mortensen.github.io/tags/hcd/</loc>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/machine-learning/</loc>
     <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chase-mortensen.github.io/tags/js/</loc>
-    <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chase-mortensen.github.io/tags/ml/</loc>
-    <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/projects/</loc>
     <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chase-mortensen.github.io/tags/</loc>
-    <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/projects/task-list/</loc>
     <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://chase-mortensen.github.io/tags/user-interface/</loc>
+    <lastmod>2021-06-21T02:23:29-04:00</lastmod>
+  </url><url>
     <loc>https://chase-mortensen.github.io/tags/vue.js/</loc>
     <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/tags/wireframing/</loc>
     <lastmod>2021-06-21T02:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/tags/diy/</loc>
     <lastmod>2021-04-22T00:12:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/tags/gaming/</loc>
     <lastmod>2021-04-22T00:12:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/tags/mobile/</loc>
     <lastmod>2021-04-22T00:12:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/projects/mobile-gaming/</loc>
     <lastmod>2021-04-22T00:12:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/tags/data-science/</loc>
     <lastmod>2021-04-14T20:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/projects/faceoverlay/</loc>
     <lastmod>2021-04-14T20:23:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/about/about-me/</loc>
     <lastmod>2021-04-13T09:19:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/about/</loc>
     <lastmod>2021-04-13T09:19:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://chase-mortensen.github.io/categories/</loc>
   </url>
-  
-  <url>
-    <loc>https://chase-mortensen.github.io/tags/ux/ui/</loc>
-  </url>
-  
 </urlset>
