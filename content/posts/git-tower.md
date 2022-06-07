@@ -1,6 +1,6 @@
 ---
 title: "Tower: Git for Humans"
-date: 2022-06-06
+date: 2022-06-05
 slug: "git-tower"
 description: "Tower is a Git client I wish I would have started using years ago"
 keywords: ["git", "tower", "gui", "developer experience", "DX"]
