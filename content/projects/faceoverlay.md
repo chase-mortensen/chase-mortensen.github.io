@@ -1,6 +1,7 @@
 ---
 title: "FaceOverlay"
-date: 2021-04-14T20:23:29-04:00
+publishdate: 2021-04-14
+lastmod: 2021-04-14
 slug: "faceoverlay"
 description: "FaceOverlay is an educational tool for machine learning."
 keywords: ["faceoverlay", "machine learning", "ml", "data science", "JS"]
@@ -12,14 +13,14 @@ toc: true
 
 ## Intro
 
-FaceOverlay (also known as [SmileyCluster](https://zhenbai.io/wp-content/uploads/2020/11/SmileyCluster_IDC20.pdf)) is an educational tool for machine learning under development in Dr. Zhen Bai's lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience. 
+FaceOverlay (also known as [SmileyCluster](https://zhenbai.io/wp-content/uploads/2020/11/SmileyCluster_IDC20.pdf)) is an educational tool for machine learning under development in Dr. Zhen Bai's lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience.
 
 <br>
 {{< figure src="/assets/faceoverlay/ur-library.jpg" caption="#### UR's Rush Rhees Library &uarr;" >}}
 
 ### Chernoff Faces
 
-[Chernoff Faces](https://web.archive.org/web/20120415030406/http://www.apprendre-en-ligne.net/mathematica/3.3/chernoff.pdf) are a tool for visualizing multivariate data. Plotting data with more than two or three variables is challenging, and Chernoff Faces approaches this by connecting each variable to a facial feature - such as eye diameter, mouth shape, etc. This allows for three or more features to be assessed at a time. 
+[Chernoff Faces](https://web.archive.org/web/20120415030406/http://www.apprendre-en-ligne.net/mathematica/3.3/chernoff.pdf) are a tool for visualizing multivariate data. Plotting data with more than two or three variables is challenging, and Chernoff Faces approaches this by connecting each variable to a facial feature - such as eye diameter, mouth shape, etc. This allows for three or more features to be assessed at a time.
 
 Some drawbacks to Chernoff faces are 1) that the features aren't easily measurable and 2) that some features are more salient than others.
 

@@ -1,7 +1,7 @@
 ---
 title: "About Me"
-date: 2021-04-13T09:19:29-04:00
-updated: 2022-06-06
+publishdate: 2021-04-13
+lastmod: 2022-06-07
 slug: "about-me"
 description: "Hi, here's a little about me."
 keywords: ["resume", "succulents", "Chase", "Mortensen", "Chase Mortensen", "Design"]
@@ -37,7 +37,7 @@ In the lab, I gained an appreciation for human-centered iterative design. One bo
 
 Once you learn about them, they seem to appear everywhere. I love what Norman says about a well-designed door in the video though - that you shouldn't even have to consciously think about the fact you are going through a door. It's completely natural.
 
-Good software interactions are the same way - you shouldn't have to think twice or second guess yourself when using it. Unfortunately, there are a lot of Norman Door-esque interfaces that we encounter. Each of these interactions has a cost - it reduces the quality of the user experience and can cause the user to become frustrated or exit the software. 
+Good software interactions are the same way - you shouldn't have to think twice or second guess yourself when using it. Unfortunately, there are a lot of Norman Door-esque interfaces that we encounter. Each of these interactions has a cost - it reduces the quality of the user experience and can cause the user to become frustrated or exit the software.
 
 Thankfully, these interactions can be improved through the iterative design process. I am passionate about and believe in this process and want to build rewarding, easy-to-use products.
 
@@ -49,12 +49,12 @@ Some highlights for me include a [store locator](https://staging.maloufhome.com/
 
 At Malouf, we use Laravel, Vue, and Gridsome (similar to Nuxt.js) for most of our sites. I am primarily a Vue developer, but I am also comfortable with Laravel. Other tools I regularly use are VS Code, Docker, Tower, Figma, Slack, MS Teams, ImageOptim, and GitHub. I am also interested in Django.
 
-## Resume
+## About this site
 
-Here is a link to my [current resume](https://docs.google.com/document/d/1gkz9kz9-ugiBM0kcGmHaRdeoZJDfPU75ycJA8P3ee7E/edit?usp=sharing).
+I built this site using [Hugo](https://gohugo.io/), which is an open-source static site generator. It's really easy to use - you pretty much only need to know markdown unless you want to tweak the site. I've been using a theme called [Codex](https://themes.gohugo.io/themes/hugo-theme-codex/), which I really like. My only issue with Hugo is that the templating system is a little confusing - I generally prefer Vue. For an open-source and free tool, it's awesome.
 
 This site is a work in progress and will contain more information about me and my projects soon. Stay tuned!
 
-My email is chase@chase-mortensen.dev. If you have book recommendations, want to play pickleball, or would like to introduce yourself, please reach out! Thanks!
+My email is chase@chase-mortensen.dev and this is a link to my [current resume](https://docs.google.com/document/d/1gkz9kz9-ugiBM0kcGmHaRdeoZJDfPU75ycJA8P3ee7E/edit?usp=sharing).. If you have book recommendations, want to play pickleball, or would like to introduce yourself, please reach out! Thanks!
 
 Chase

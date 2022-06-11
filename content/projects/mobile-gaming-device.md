@@ -1,6 +1,7 @@
 ---
 title: "Mobile Gaming Device"
-date: 2021-04-22T00:12:29-04:00
+publishdate: 2021-04-22
+lastmod: 2021-04-22
 slug: "mobile-gaming"
 description: "Reminiscing on my beloved Game Boy Advance, I wanted to my own modern version."
 keywords: ["mobile", "user-experience", "user-interface", "PICO-8", "Game Boy Advance", "Nintendo", "DIY", "Raspberry Pi"]
@@ -57,9 +58,9 @@ Ideally, I would have done further user testing with this model and maybe even f
 
 ### Components
 
-Inside the device, you can see the [makey makey](https://makeymakey.com/) I mentioned in the introduction. Alligator clips connected the makey makey to the backs of the pins. The circuit completes on this device since the bottom of the device is covered in conductive tape and then back to the makey makey (see the orange alligator clip in the image above). 
+Inside the device, you can see the [makey makey](https://makeymakey.com/) I mentioned in the introduction. Alligator clips connected the makey makey to the backs of the pins. The circuit completes on this device since the bottom of the device is covered in conductive tape and then back to the makey makey (see the orange alligator clip in the image above).
 
-Originally, I had planned to use [CHIP](https://shop.pocketchip.co/) to run the games, but ended up going with a [Raspberry Pi Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) since I had the extra space and it's a little more powerful. The software is called [PICO-8](https://www.lexaloffle.com/pico-8.php) - you should definitely check it out if you haven't heard of it. There are a ton of free games on it and it's available on Windows, Mac, and Linux (including a Rasperry Pi version). One thing I love about it is that you can actually view and edit the code and visuals for the games on there, so you can really go crazy remixing games or creating your own. 
+Originally, I had planned to use [CHIP](https://shop.pocketchip.co/) to run the games, but ended up going with a [Raspberry Pi Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) since I had the extra space and it's a little more powerful. The software is called [PICO-8](https://www.lexaloffle.com/pico-8.php) - you should definitely check it out if you haven't heard of it. There are a ton of free games on it and it's available on Windows, Mac, and Linux (including a Rasperry Pi version). One thing I love about it is that you can actually view and edit the code and visuals for the games on there, so you can really go crazy remixing games or creating your own.
 
 <br>
 {{< figure src="/assets/mobile-gaming/inside-device.jpg" caption="#### A Look Inside &uarr;" >}}

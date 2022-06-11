@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>algorithms</title>
+      <link>https://chase-mortensen.github.io/tags/algorithms/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elevator-saga</title>
+      <link>https://chase-mortensen.github.io/tags/elevator-saga/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/elevator-saga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://chase-mortensen.github.io/tags/javascript/</link>
+      <pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>developer-experience</title>
       <link>https://chase-mortensen.github.io/tags/developer-experience/</link>
@@ -38,7 +65,7 @@
     <item>
       <title>human-centered-design</title>
       <link>https://chase-mortensen.github.io/tags/human-centered-design/</link>
-      <pubDate>Wed, 23 Feb 2022 20:54:29 -0400</pubDate>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/human-centered-design/</guid>
       <description></description>
@@ -47,7 +74,7 @@
     <item>
       <title>site-performance</title>
       <link>https://chase-mortensen.github.io/tags/site-performance/</link>
-      <pubDate>Wed, 23 Feb 2022 20:54:29 -0400</pubDate>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/site-performance/</guid>
       <description></description>
@@ -56,7 +83,7 @@
     <item>
       <title>user-experience</title>
       <link>https://chase-mortensen.github.io/tags/user-experience/</link>
-      <pubDate>Wed, 23 Feb 2022 20:54:29 -0400</pubDate>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/user-experience/</guid>
       <description></description>
@@ -65,25 +92,16 @@
     <item>
       <title>web-vitals</title>
       <link>https://chase-mortensen.github.io/tags/web-vitals/</link>
-      <pubDate>Wed, 23 Feb 2022 20:54:29 -0400</pubDate>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/web-vitals/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>javascript</title>
-      <link>https://chase-mortensen.github.io/tags/javascript/</link>
-      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
-      
-      <guid>https://chase-mortensen.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>machine-learning</title>
       <link>https://chase-mortensen.github.io/tags/machine-learning/</link>
-      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/machine-learning/</guid>
       <description></description>
@@ -92,7 +110,7 @@
     <item>
       <title>user-interface</title>
       <link>https://chase-mortensen.github.io/tags/user-interface/</link>
-      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/user-interface/</guid>
       <description></description>
@@ -101,7 +119,7 @@
     <item>
       <title>vue.js</title>
       <link>https://chase-mortensen.github.io/tags/vue.js/</link>
-      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/vue.js/</guid>
       <description></description>
@@ -110,7 +128,7 @@
     <item>
       <title>wireframing</title>
       <link>https://chase-mortensen.github.io/tags/wireframing/</link>
-      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/wireframing/</guid>
       <description></description>
@@ -119,7 +137,7 @@
     <item>
       <title>diy</title>
       <link>https://chase-mortensen.github.io/tags/diy/</link>
-      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/diy/</guid>
       <description></description>
@@ -128,7 +146,7 @@
     <item>
       <title>gaming</title>
       <link>https://chase-mortensen.github.io/tags/gaming/</link>
-      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/gaming/</guid>
       <description></description>
@@ -137,7 +155,7 @@
     <item>
       <title>mobile</title>
       <link>https://chase-mortensen.github.io/tags/mobile/</link>
-      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/mobile/</guid>
       <description></description>
@@ -146,7 +164,7 @@
     <item>
       <title>data-science</title>
       <link>https://chase-mortensen.github.io/tags/data-science/</link>
-      <pubDate>Wed, 14 Apr 2021 20:23:29 -0400</pubDate>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/tags/data-science/</guid>
       <description></description>

@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 21 Jun 2021 02:23:29 -0400</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/user-interface/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/user-interface/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task List</title>
       <link>https://chase-mortensen.github.io/projects/task-list/</link>
-      <pubDate>Mon, 21 Jun 2021 02:23:29 -0400</pubDate>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/projects/task-list/</guid>
       <description>Current Project This project (code here) began as a simple to-do app. The user can add, edit, delete, and mark tasks as complete, as well as filter the list by pending, complete, or all tasks. It isn&amp;rsquo;t fully functional, but you can see a demo here. This project was built in Vue.js and is currently styled using vuetify. It is currently hosted using Firebase.
@@ -21,7 +21,7 @@
     <item>
       <title>Mobile Gaming Device</title>
       <link>https://chase-mortensen.github.io/projects/mobile-gaming/</link>
-      <pubDate>Thu, 22 Apr 2021 00:12:29 -0400</pubDate>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/projects/mobile-gaming/</guid>
       <description>Intro In 2016, I took a class called Digital Making and Learning that ultimately lead me to the Learn Explore Design Lab. This class was amazing and was where I first read Don Norman&amp;rsquo;s The Design of Everyday Things. I learned about feedback, signifiers, and many other aspects of human-centered design.
@@ -31,7 +31,7 @@ For my final project in the course, I wanted to make a mobile gaming device. I l
     <item>
       <title>FaceOverlay</title>
       <link>https://chase-mortensen.github.io/projects/faceoverlay/</link>
-      <pubDate>Wed, 14 Apr 2021 20:23:29 -0400</pubDate>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/projects/faceoverlay/</guid>
       <description>Intro FaceOverlay (also known as SmileyCluster) is an educational tool for machine learning under development in Dr. Zhen Bai&amp;rsquo;s lab at the University of Rochester. I was able to work on the project through an NSF-funded internship over the summer of 2019. Dr. Bai and her lab were amazing to work with and I learned a lot about iterative design and experiment design through that experience.

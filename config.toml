@@ -49,6 +49,7 @@ googleAnalytics = "UA-121096353-3"
 [markup]
   [markup.highlight]
     codeFences = true
+    noClasses=false
 
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]

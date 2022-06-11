@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 23 Feb 2022 20:54:29 -0400</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/web-vitals/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/web-vitals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web Vitals 101: The Foundation of Good User Experience</title>
       <link>https://chase-mortensen.github.io/posts/web-vitals/</link>
-      <pubDate>Wed, 23 Feb 2022 20:54:29 -0400</pubDate>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://chase-mortensen.github.io/posts/web-vitals/</guid>
       <description>This post is an introduction to the Web Vitals initiative from Google and why Web Vitals matter for your sites. Most of the content is summarized from Google’s articles on Web Vitals [1] and there are links throughout this article for further reading.

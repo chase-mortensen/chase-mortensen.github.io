@@ -11,6 +11,7 @@
           <header class="post__header">
             <h1 id="post__title">{{.Title}}</h1>
             {{ if .Date }}<time datetime="{{ .Date }}" class="post__date">{{ .Date.Format $dateFormat }}</time> {{ end }}
+            {{ if .Lastmod }}<time datetime="{{ .Lastmod }}" class="post__date">  (modified {{ .Lastmod.Format $dateFormat }})</time> {{ end }}
           </header>
           <article class="post__content">
               {{ partial "anchored-headings.html" .Content }}
@@ -33,8 +34,8 @@
       </div>
       {{ end }}
     </div>
-    
-{{ end }} 
+
+{{ end }}
 
 {{ define "scripts" }}
   {{/* Hardcode a specific prismjs version to avoid a redirect on every page load. */}}

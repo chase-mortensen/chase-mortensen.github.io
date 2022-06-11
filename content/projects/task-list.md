@@ -1,6 +1,7 @@
 ---
 title: "Task List"
-date: 2021-06-21T02:23:29-04:00
+publishdate: 2021-06-21
+lastmod: 2021-06-21
 slug: "task-list"
 description: "This is a simple to-do app that I want to expand into a smart task scheduler."
 keywords: ["to-do", "task", "machine learning", "ml", "data science", "UX", "UI", "user-experience", "user-interface", "mockflow", "tailwind", "vue.js", "vuetify", "firebase"]
@@ -38,7 +39,7 @@ This is a quick diagram just made in Google Sheets that shows a basic idea of ho
 
 ## Wireframe
 
-I used Mockflow's WireframePro editor to make a few sample desktop pages using Tailwind components (except for the month calandar - Tailwind didn't have that). I'm thinking that the month calandar won't be included in the initial version. If the pages are too small here, you can also see them [here](https://drive.google.com/drive/folders/1_OY3MTGkhcSFj3ZxJU_DuVMTVoZJfu2q?usp=sharing). 
+I used Mockflow's WireframePro editor to make a few sample desktop pages using Tailwind components (except for the month calandar - Tailwind didn't have that). I'm thinking that the month calandar won't be included in the initial version. If the pages are too small here, you can also see them [here](https://drive.google.com/drive/folders/1_OY3MTGkhcSFj3ZxJU_DuVMTVoZJfu2q?usp=sharing).
 
 As a disclaimer, there are some pages that have not been created yet - specifically, the settings and sign up pages. There might be other necessary pages as well - this is a rough first draft.
 

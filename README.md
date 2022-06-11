@@ -7,3 +7,8 @@ Once the site is cloned and you've downloaded [Hugo](https://gohugo.io/getting-s
 ```
 $ hugo server -D
 ```
+
+Before committing changes, run:
+```
+$ hugo -D
+```

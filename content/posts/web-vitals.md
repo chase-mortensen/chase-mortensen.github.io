@@ -1,6 +1,7 @@
 ---
 title: "Web Vitals 101: The Foundation of Good User Experience"
-date: 2022-02-23T20:54:29-04:00
+publishdate: 2022-02-23
+lastmod: 2022-02-23
 slug: "web-vitals"
 description: "Core Web Vitals provide a foundation for good user experience."
 keywords: ["web vitals", "user experience", "core web vitals", "javascript", "web performance"]
