@@ -2,12 +2,12 @@
 <html lang="en-us">
 
 <head>
-  <title> | ckm</title>
+  <title>Elevator Saga: Part 1 | ckm</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Elevator saga is a fun way to test your javascript skills">
+  <meta name="keywords" content="elevator , saga , elevator saga , javascript , js">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,8 +15,8 @@
   
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="" />
-  <meta name="twitter:description" content=""/>
+  <meta name="twitter:title" content="Elevator Saga: Part 1" />
+  <meta name="twitter:description" content="Elevator saga is a fun way to test your javascript skills"/>
   <meta name="twitter:site" content="@chasekmortensen" />
   <meta name="twitter:creator" content="https://twitter.com/chasekmortensen" />
   
@@ -51,12 +51,12 @@
       "@context": "http://schema.org", 
       "@type": "WebSite", 
       "url": "https:\/\/chase-mortensen.github.io\/posts\/elevator-saga-1\/",
-      "name": "",
+      "name": "Elevator Saga: Part 1",
       "author": {
         "@type": "Person",
         "name": ""
       },
-      "description": ""
+      "description": "Elevator saga is a fun way to test your javascript skills"
     }
   
   </script>
@@ -116,26 +116,111 @@ if (!doNotTrack) {
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title"></h1>
-            
-            
+            <h1 id="post__title">Elevator Saga: Part 1</h1>
+            <time datetime="2022-06-29 00:00:00 &#43;0000 UTC" class="post__date">29 Jun 2022</time> 
+            <time datetime="2022-06-29 00:00:00 &#43;0000 UTC" class="post__date">  (modified 29 Jun 2022)</time> 
           </header>
           <article class="post__content">
               
+<!-- <figure><img src="/assets/elevator-saga/elevator.gif"
+         alt="Elevator Saga"/>
+</figure>
+ -->
+<h2 id="challenge-1">Challenge 1<a class="anchor" href="#challenge-1">#</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">Transport 15 people in 60 seconds or less (1 elevator, 3 floors)</code></pre></div>
+<p>I&rsquo;m going to start with a very basic algorithm and hopefully progress to something that resembles real-life elevator behavior.</p>
+<p>In order to move the elevator, I need the <code>goToFloor</code> function (see the documentation <a href="https://play.elevatorsaga.com/documentation.html#docs" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>here</a>). I&rsquo;m going to start out by making an elevator that successively moves from the ground floor to the next floor and goes back to the ground floor when it reaches the top floor (Buddy the Elf-style).</p>
+<br/>
+<div class="tenor-gif-embed" data-postid="7356021" data-share-method="host" data-aspect-ratio="1.92308" data-width="100%"><a href="https://tenor.com/view/elf-elevator-movie-pressall-gif-7356021">Elf Elevator GIF</a>from <a href="https://tenor.com/search/elf-gifs">Elf GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+<p>I&rsquo;ll use the <code>on(&quot;idle&quot;)</code> event to start the elevator. Once it reaches the top and becomes idle, the event will fire again and the elevator will go back to floor 0.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="p">{</span>
+  <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">elevators</span><span class="p">,</span> <span class="nx">floors</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">elevator</span> <span class="o">=</span> <span class="nx">elevators</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="nx">elevator</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&#34;idle&#34;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="p">});</span>
+  <span class="p">},</span>
+  <span class="nx">update</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">dt</span><span class="p">,</span> <span class="nx">elevators</span><span class="p">,</span> <span class="nx">floors</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// We normally don&#39;t need to do anything here
+</span><span class="c1"></span>  <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+<p>Great! That was a success. I won&rsquo;t show recordings of my elevator running, but you can copy the code and run it yourself. Smashing all of the elevator buttons seems to be working, let&rsquo;s try that again in Challenge 2.</p>
+<h2 id="challenge-2">Challenge 2<a class="anchor" href="#challenge-2">#</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">Transport 20 people in 60 seconds or less</code></pre></div>
+<p>Continuing on with the same approach from Challenge 1, I&rsquo;m just going to send the elevator up to each floor (0, 1, 2, etc.) until it reaches the top. At that point the elevator goes back to the ground floor and starts over. In the real world, this would be a time and energy-intensive approach. Still,let&rsquo;s see if we can pass this challenge with this simple approach.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="p">{</span>
+  <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">elevators</span><span class="p">,</span> <span class="nx">floors</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">elevator</span> <span class="o">=</span> <span class="nx">elevators</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="nx">elevator</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&#34;idle&#34;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="p">});</span>
+  <span class="p">},</span>
+  <span class="nx">update</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">dt</span><span class="p">,</span> <span class="nx">elevators</span><span class="p">,</span> <span class="nx">floors</span><span class="p">)</span> <span class="p">{</span>
+
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+<p>Okay, that worked for me! It looks like there is some randomness and it won&rsquo;t necessarily pass every time with the same code.</p>
+<h2 id="challenge-3">Challenge 3<a class="anchor" href="#challenge-3">#</a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">Transport 23 people in 60 seconds or less</code></pre></div>
+<p>All right, let&rsquo;s try our button-smashing technique one more time. I&rsquo;m just going to use the same code as in Challenge 2.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="p">{</span>
+  <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">elevators</span><span class="p">,</span> <span class="nx">floors</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">elevator</span> <span class="o">=</span> <span class="nx">elevators</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="nx">elevator</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&#34;idle&#34;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+      <span class="nx">elevator</span><span class="p">.</span><span class="nx">goToFloor</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="p">});</span>
+  <span class="p">},</span>
+  <span class="nx">update</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">dt</span><span class="p">,</span> <span class="nx">elevators</span><span class="p">,</span> <span class="nx">floors</span><span class="p">)</span> <span class="p">{</span>
+
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></div>
+<p>Okay, that may or may not work for you - it kind of seems like I&rsquo;m hitting the limit of the button mashing technique. It failed on my first attempt, though. In the next post, I&rsquo;ll try out a new technique and start using different functions and events to hopefully make it more efficient.</p>
+<p>What do you think? Let me know at <a href="mailto:chase@chase-mortensen.dev" 
+   target="_blank" 
+  
+>chase@chase-mortensen.dev</a>.</p>
+<p>Chase</p>
 
 
               
           </article>
           
 
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/javascript/">javascript</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/elevator-saga/">elevator-saga</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://chase-mortensen.github.io/tags/algorithms/">algorithms</a>
+    </li></ul>
+
  <div class="pagination">
   
-
-  
-    <a class="pagination__item" href="https://chase-mortensen.github.io/posts/web-vitals/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >Web Vitals 101: The Foundation of Good User Experience</span>
+    <a class="pagination__item" href="https://chase-mortensen.github.io/posts/elevator-saga-intro/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">How to Program an Elevator</span>
     </a>
+  
+
   
 </div>
 

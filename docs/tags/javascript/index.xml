@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 11 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://chase-mortensen.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elevator Saga: Part 1</title>
+      <link>https://chase-mortensen.github.io/posts/elevator-saga-1/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://chase-mortensen.github.io/posts/elevator-saga-1/</guid>
+      <description>-- Challenge 1 Transport 15 people in 60 seconds or less (1 elevator, 3 floors) I&amp;rsquo;m going to start with a very basic algorithm and hopefully progress to something that resembles real-life elevator behavior.
+In order to move the elevator, I need the goToFloor function (see the documentation here). I&amp;rsquo;m going to start out by making an elevator that successively moves from the ground floor to the next floor and goes back to the ground floor when it reaches the top floor (Buddy the Elf-style).</description>
+    </item>
+    
     <item>
       <title>How to Program an Elevator</title>
       <link>https://chase-mortensen.github.io/posts/elevator-saga-intro/</link>

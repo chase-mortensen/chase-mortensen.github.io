@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 publishdate: 2021-04-13
-lastmod: 2022-06-07
+lastmod: 2022-06-29
 slug: "about-me"
 description: "Hi, here's a little about me."
 keywords: ["resume", "succulents", "Chase", "Mortensen", "Chase Mortensen", "Design"]
@@ -19,14 +19,14 @@ toc: true
 Here's a few quick facts about me:
 * I'm a husband (as of August 2021!), musician, artist, uncle, skier, mountain biker, and avid pickleballer.
 * I love being outside, traveling, and trying as many vegan restaurants as possible.
-* Severance is currently my favorite show - hit me up if you want to talk about it!
+* Severance is currently my favorite show - if you haven't seen it, I highly recommend it! 🤙
 
 <br>
 {{< figure src="/assets/about/cake_0.jpg" >}}
 <br>
 {{< figure src="/assets/about/cake_1.jpg" >}}
 
-I am a recent computer science graduate from USU and I value simple, usable design. I took a variety of classes throughout my undergrad - from web development to parallel programming to data science. For almost my entire time at USU, I worked in the [Learn Explore Design (LED) Lab](https://learnexploredesign.org/). I had so many valuable experiences there and I miss working with everyone there.
+I am a computer science graduate from USU and I value simple, usable design. I took a variety of classes throughout my undergrad - from web development to parallel programming to data science. For almost my entire time at USU, I worked in the [Learn Explore Design (LED) Lab](https://learnexploredesign.org/). I had so many valuable experiences there and I miss working with everyone there.
 
 ## Norman Doors
 
@@ -51,10 +51,10 @@ At Malouf, we use Laravel, Vue, and Gridsome (similar to Nuxt.js) for most of ou
 
 ## About this site
 
-I built this site using [Hugo](https://gohugo.io/), which is an open-source static site generator. It's really easy to use - you pretty much only need to know markdown unless you want to tweak the site. I've been using a theme called [Codex](https://themes.gohugo.io/themes/hugo-theme-codex/), which I really like. My only issue with Hugo is that the templating system is a little confusing - I generally prefer Vue. For an open-source and free tool, it's awesome.
+I built this site using [Hugo](https://gohugo.io/), which is an open-source static site generator written in Go. It's really easy to use - you pretty much only need to know markdown unless you want to tweak the site theme. I've been using a theme called [Codex](https://themes.gohugo.io/themes/hugo-theme-codex/), which I really like. My only issue with Hugo is that the templating system is a little confusing - I generally prefer Vue. For an open-source and free tool, it's awesome.
 
 This site is a work in progress and will contain more information about me and my projects soon. Stay tuned!
 
-My email is chase@chase-mortensen.dev and this is a link to my [current resume](https://docs.google.com/document/d/1gkz9kz9-ugiBM0kcGmHaRdeoZJDfPU75ycJA8P3ee7E/edit?usp=sharing).. If you have book recommendations, want to play pickleball, or would like to introduce yourself, please reach out! Thanks!
+My email is chase@chase-mortensen.dev and this is a link to my [current resume](https://docs.google.com/document/d/1gkz9kz9-ugiBM0kcGmHaRdeoZJDfPU75ycJA8P3ee7E/edit?usp=sharing). If you would like to introduce yourself, please reach out - thanks! 🙌
 
 Chase
